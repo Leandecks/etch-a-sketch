@@ -13,7 +13,7 @@
 }
 
 #container .line .element {
-  /* border: solid .1rem; */
   width: 2rem;
   flex: 1;
+  transition: all 300ms ease-in-out;
 }

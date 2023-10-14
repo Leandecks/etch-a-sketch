@@ -1,5 +1,5 @@
 "use strict";
-console.log("JS Started")
+console.log("JS Started");
 
 // Create the grid
 
