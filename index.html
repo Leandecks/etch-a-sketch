@@ -5,17 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch A Sketch</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
 </head>
 <body>
   
-  <button type="button" id="btn">Change grid size</button>
-  <button type="button" id="rgb">Rainbow mode</button>
-  <button type="button" id="delete">Eraser</button>
+  <h1>Etch-a-Sketch</h1>
 
-  <label for="colorpicker">Color: </label>
-  <input type="color" title="Choose color" id="colorpicker" value="#000000">
-  
-  <div id="container"></div>
+  <div class="content">
+    <div class="buttons">
+      <button type="button" id="btn">Change grid size</button>
+      <button type="button" id="rgb">Rainbow mode</button>
+      <button type="button" id="delete">Eraser</button>
+
+      <div class="input">
+        <label for="colorpicker">Color: </label>
+        <input type="color" title="Choose color" id="colorpicker" value="#000000">
+      </div>
+    </div>
+
+    <div id="container"></div>
+
+    <footer>
+      <p>Developed by <a href="http://leandecks.github.io">Leandecks</a> - <a href="http://github.com/leandecks/etch-a-sketch/">Source Code</a></p>
+    </footer>
+  </div>
 
   <script src="./app.js"></script>
 </body>

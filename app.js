@@ -20,10 +20,11 @@ for (let j = 0; j < 16; j++) {
 
 let element = document.querySelectorAll(".element");
 let line = document.querySelectorAll(".line");
+const DARKCOLOR = "#26363f";
 
 element.forEach(element => {
   element.addEventListener("mouseover", () => {
-    element.style.backgroundColor = "black";
+    element.style.backgroundColor = DARKCOLOR;
   });
 });
 
@@ -60,7 +61,7 @@ btn.addEventListener("click", () => {
     line = document.querySelectorAll(".line");
     element.forEach(element => {
       element.addEventListener("mouseover", () => {
-        element.style.backgroundColor = "black";
+        element.style.backgroundColor = DARKCOLOR;
       });
     });
   }
@@ -90,10 +91,11 @@ rgbButton.addEventListener("click", () => {
 // Eraser button
 
 const eraser = document.querySelector("#delete");
+const BEIGE = "beige";
 
 eraser.addEventListener("click", () => {
   element.forEach(element => {
-    element.style.backgroundColor = "white";
+    element.style.backgroundColor = BEIGE;
   });
 });
 
