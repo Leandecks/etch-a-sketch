@@ -1,0 +1,19 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  height: 32rem;
+  border: solid gold;
+}
+
+#container .line {
+  height: 2rem;
+  flex: 1;
+  display: flex;
+}
+
+#container .line .element {
+  /* border: solid .1rem; */
+  width: 2rem;
+  flex: 1;
+}
